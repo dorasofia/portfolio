@@ -1,431 +1,326 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background: #262626;
-}
+    font-family: 'Open Sans', sans-serif;
+    background: #202020;}
 
-p {
-    font-size: 13px;
-    line-height: 17px;
-} 
+/* COPY */
 
 .captions-text {
-    width: 290px;
-    color: white;
+    width: 650px;
+    color: #a4b0be;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 100;
-}
+    font-weight: 300;
+    text-align: justify;}
+
+p {
+    font-size: 15px;
+    line-height: 22px;}
+
+.captions-company {
+    width: 650px;
+    color: #a4b0be;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;}
 
 .captions a {
     text-decoration: none;
-    color: #f5ff00;
-    font-size: 13px;
-}
+    color: #FFFFFF;
+    font-weight: 300;
+    text-decoration: underline;}
 
 .captions a:hover {
-    /* color: blue; */
-    color: #f5ff00;
-}
+    color: #1d3cf6;}
 
-.emph {
-    /* color: blue; */
-    color: white;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-}
+.captions a:active {
+    color: #1d3cf6;}
+
+.captions a:hover img{
+    opacity: 0.8;}
 
 .p-titles {
-    font-size: 26px;
-    font-weight: 100;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-size: 45px;
     color: white;
-    line-height: 30px;
-}
+    line-height: 50px;
+    width: 650px;
+    margin:auto;
+    text-align: left;}
+
+.p-title {
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+    line-height: 35px;
+    width: 650px;
+    margin:auto;
+    margin-top: 20px;
+    text-align: left;}
 
 h1 {
-    font-size: 26px;
-    padding-bottom: 227px;
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+    font-size: 110px;
+    padding-bottom: 150px;
     color: white;
-    font-weight: 100;
-}
+    margin-left: -8px;}
 
-h2 {
-    font-size: 14px;
-    font-weight: 100;
-    color: white;
-    padding-bottom: 13px;
-}
-
-h3 {
-    font-size: 14px;
-    font-weight: 100;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-}
-
+/* LAYOUT */
+    
 .top {
-    /**/
     background-repeat: no-repeat; 
     background-image: url("background.jpg");
-    background-size: auto;
+    background-size: 1680px 775px;
     background-position: top, center;
-    height: 700px;
-    /**/
-    /*display:none;*/
+    height: 775px;
     display: block;
     max-width: 1680px;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
 
 .nav {
-    margin-left: -55%;
     position: absolute;
-    text-align: center;
-    margin-top: 93px;
-}
-
-.nav .active {
-    color: #f5ff00;
-}
-
-h1:hover {
-    color: #f5ff00;
-}
-
-h2:hover {
-    color: #f5ff00;
-}
-
-h3:hover {
-    color: #f5ff00;
-}
+    text-align: left;
+    margin-top: 54px;
+    margin-left: 0px;}
 
 .gallery {
     position: absolute;
-    /* align-content: left; */
     align-content: center;
     width: 100%;
-    height: 163px;
+    height: 201px;
     overflow: hidden;
-    /* margin-left: 0px; */
     margin-left: auto;
     margin-right: auto;
-    margin-top: 187px;
+    margin-top: 229px;
     max-width: 1680px;
-}
+    background-color: #1d3cf6;}
 
 .gallery a {
-    display: inline-block;
-}
+    display: inline-block;}
 
 .gallery img {
-    opacity: 0.4;
+    opacity: 0.1;
     margin-left: -4px;
     cursor: pointer;
-    height: 163px;
-}
+    height: 201px;}
 
 .gallery img:hover {
-    opacity: 1;
-    -webkit-box-shadow: 0px 1px 5px 3px #8d8d8d;
-}
+    opacity: 1;}
 
-.hum-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+.gallery img:active {
+    opacity: 1;}
+
+.captions img {
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;}
+
+.x {
+    margin-top: -34px;
+    margin-left: 85%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;} 
+
+.x img {
+    width: 75px;
+    height: auto;}
+
+.x-image {
+    content:url("x.svg");}
+
+.x-image:hover {
+    content:url("x-.svg");}
+
+.captions iframe {
+    width: 650px;
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;}
+
 .dogtown-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
-.dulcolax-captions {
-    font-weight: 300;
-    background-color: #262626;
+.adteam-captions {
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .hacks-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .idean-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .nordic-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .elffe-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
-.psych-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.map-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.cards-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.processing-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.posters-captions {
-    font-weight: 300;
-    background-color: #262626;
+.dma-captions {
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .vivgo-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.book-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.bnw-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .about-captions {
-    font-weight: 300;
-    background-color: #262626;
+    background-color: #202020;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
-.contact-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;
-}
 
-.hum {
-    margin-top: -27px;}
-.dogtown {
-    margin-top: -27px;}
-.elffe {
-    margin-top: -27px;}
-.psych {
-    margin-top: -27px;}
-.map {
-    margin-top: -27px;}
-.cards {
-    margin-top: -27px;}
-.processing {
-    margin-top: -27px;}
-.nordic {
-    margin-top: -27px;}
-.posters {
-    margin-top: -27px;}
-.vivgo {
-    margin-top: -27px;}
-.book {
-    margin-top: -27px;}
-.bnw {
-    margin-top: -27px;}
-.dulcolax {
-    margin-top: -27px;}
-.hacks {
-    margin-top: -27px;}
-.idean {
-    margin-top: -27px;}
-.captions img {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
+.dogtown {margin-top: -84px;}
+.elffe {margin-top: -84px;}
+.dma {margin-top: -84px;}
+.vivgo {margin-top: -84px;}
+.nordic {margin-top: -84px;}
+.adteam {margin-top: -84px;}
+.hacks {margin-top: -84px;}
+.idean {margin-top: -84px;}
 
-.captions iframe {
-    width: 500px;
-    height: 281px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* LOGOS */
 
-.x {
-    margin-top: -27px;
-    position: absolute;
-    margin-left: 85%;
-}
+.social a {
+    margin-right: 20px;}
 
-.x img {
-    width: 60px;
-}
+.social img {
+    height: 20px;
+    width: auto;}
 
-@media (min-width: 1200px) {
-    /**/
+.social-LinkedIn {
+    content:url("logo-LinkedIn.png");}
+
+.social-LinkedIn:hover {
+    content:url("logo-LinkedIn-hover.png");}
+
+.social-Vimeo {
+    content:url("logo-Vimeo.png");}
+
+.social-Vimeo:hover {
+    content:url("logo-Vimeo-hover.png");}
+
+.social-Flickr {
+    content:url("logo-Flickr.png");}
+
+.social-Flickr:hover {
+    content:url("logo-Flickr-hover.png");}
+
+.social-Instagram {
+    content:url("logo-Instagram.png");}
+
+.social-Instagram:hover {
+    content:url("logo-Instagram-hover.png");}
+
+.social-Wordpress {
+    content:url("logo-Wordpress.png");}
+
+.social-Wordpress:hover {
+    content:url("logo-Wordpress-hover.png");}
+
+/* MOBILE VIEW */
+
+@media (max-width: 900px) {
     .top {
-        background-repeat: no-repeat; 
-        background-size: 1680px 860px;
-        background-position: top, center;
-        /*display:none;*/
-        height: 860px;
-    }
-    .gallery {
-        height: 200px;
-        margin-top: 230px;
-    }
-    .gallery img {
-        height: 200px;
-    }
-    /**/
-    .gallery img:hover {
-        -webkit-box-shadow: 0px 1px 5px 5px #8d8d8d;
-    }
-    .nav {
-        margin-top: 130px;
-    }
+        background-size: auto;
+        width: auto;
+        height: 700px;}
+
     h1 {
-        padding-bottom: 257px;
-        font-size: 32px;
-    }
-    h2 {
-        font-size: 19px;
-    }
-    h3 {
-        font-size: 19px;
-    }
-    .captions-text {
-        width: 450px;
-    }
-    p {
-        font-size: 16px;
-        line-height: 23px;
-    }
-    .emph {
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .p-titles {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    .captions img {
-        width: 650px;
-    }
-    .captions iframe {
-        width: 650px;
-        height: 365px;
-    }
-    .x img {
-        width: 75px;
-    }
-    .x {
-        margin-top: -34px;
-    }
-    .map {margin-top: -34px;}
-    
-}
+        font-size: 75px;
+        margin-left: -5px;
+        padding-bottom: 140px;}
 
-@media (min-width: 16800px) {
-    .x {
-        margin-top: -34px;
-        position: absolute;
-        margin-left: 70%;
-    }
     .nav {
-        margin-left: -45%;
-    }
-}
+        margin-top: 66px;} 
 
-@media (max-width: 720px) {
-    .x {margin-left: 80%;}
-    .x img {width: 60px;}
+    .x img {
+        width: 30px;
+        height: 30px;}
+
     .captions img {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;}
+        width: 100%;}
+
+    .social img {
+        height: 20px;
+        width: auto;}
+
+    .gallery img {
+        height: 165px;
+        opacity: 1;}
+
+    .gallery img:active {
+        opacity: 0.1;}
+
+    .gallery {
+        height: 165px;
+        margin-top: 185px;}
+
+    .captions-text {
+        width: 85%;
+        text-align: left;}
+
+    .captions-company {
+        width: 85%;}
+
+    .p-titles {
+        width: 85%;
+        font-size: 30px;
+        line-height: 35px;}
+
+    .p-title {
+        width: 85%;
+        font-size: 22px;
+        line-height: 30px;}
+
     .captions iframe {
-        width: 100%;
-        height: 200px;
-        margin-left: auto;
-        margin-right: auto;}
-    .dogtown {margin-top: 0px;}
-    .elffe {margin-top: 0px;}
-    .cards {margin-top: 0px;}
-    .posters {margin-top: 0px;}
-    .vivgo {margin-top: 0px;}
-    .elffe {margin-top: 0px;}
-    .book {margin-top: 0px;}
-    .bnw {margin-top: 0px;}
-    .dulcolax {margin-top: 0px;}
-    .hacks {margin-top: 0px;}
-    .idean {margin-top: 0px;}
-    .nordic {margin-top: 0px;}
-    
+        width: 85%;}
+
+    .dogtown {margin-top: -88px;}
+    .elffe {margin-top: -88px;}
+    .dma {margin-top: -88px;}
+    .vivgo {margin-top: -88px;}
+    .nordic {margin-top: -88px;}
+    .adteam {margin-top: -88px;}
+    .hacks {margin-top: -88px;}
+    .idean {margin-top: -88px;}
+    .about {margin-top: -15px;}
+
 }
 
 @-ms-viewport{

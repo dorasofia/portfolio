@@ -9,7 +9,7 @@ function makeScrollable($outer, $inner){
     var lastElem = $inner.find('a:last');
     $outer.scrollLeft(0);
     
-    //When user move mouse over menu
+    //When user move mouse over menu on desktop
     $outer.unbind('mousemove').bind('mousemove',function(e){
         var containerWidth = lastElem[0].offsetLeft + lastElem.outerWidth() + 2*extra;
         var left = (e.pageX - $outer.offset().left) * (containerWidth-divWidth) / divWidth - extra;
@@ -35,6 +35,13 @@ function buildThumbs(){
 }
 
 $(window).load(function() {
+	if ('scrollRestoration' in history) {
+  		// Don't remember scroll position from history
+  		history.scrollRestoration = 'manual';
+	}
+    $("html, body").animate({ scrollTop: 0 });
+    $(".about-captions").fadeIn(0);
+    $("h2").addClass("active");
     buildThumbs();
 });
 
@@ -49,75 +56,41 @@ $(window).resize(function() {
 
 
 $(function() {
-    
-   $(document).ready(function() {
-        $(".top").fadeIn(1000);
-       
-        setTimeout(function() {
-        $(".nav").animate({"left":"70%"},400);
-        },
-        1000);
-        });
-
-    $("h1").click(function(e) {
-        e.preventDefault();
-        hideAll();
-        $(this).addClass('active');
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-        });
-    
+            
     $("h2").click(function(e) {
         e.preventDefault();
         hideAll();
         $(this).addClass('active');
-        $(".about-captions").fadeIn(600);
-        if (document.documentElement.clientWidth < 1280) {
-            $("html, body").animate({ scrollTop: 187 }, "slow");
+        $(".about-captions").fadeIn(0);
+        if (document.documentElement.clientWidth < 900) {
+            $("html, body").animate({ scrollTop: 350 }, "slow");
             return false;}
-        if (document.documentElement.clientWidth >= 1280) {
-            $("html, body").animate({ scrollTop: 230 }, "slow");
-            return false;}
-        });
-    
-    $("h3").click(function(e) {
-        e.preventDefault();
-        hideAll();
-        $(this).addClass('active');
-        $(".contact-captions").fadeIn(600);
-        if (document.documentElement.clientWidth < 1280) {
-            $("html, body").animate({ scrollTop: 187 }, "slow");
-            return false;}
-        if (document.documentElement.clientWidth >= 1280) {
-            $("html, body").animate({ scrollTop: 230 }, "slow");
+        if (document.documentElement.clientWidth >= 900) {
+            $("html, body").animate({ scrollTop: 400 }, "slow");
             return false;}
         });
     
     function hideAll() {
         $('.active').removeClass('active');
-        $(".dogtown-captions").fadeOut(600);
-        $(".cards-captions").fadeOut(600);
-        $(".posters-captions").fadeOut(600);
-        $(".vivgo-captions").fadeOut(600);
-        $(".elffe-captions").fadeOut(600);
-        $(".book-captions").fadeOut(600);
-        $(".bnw-captions").fadeOut(600);
-        $(".nordic-captions").fadeOut(600);
-        $(".dulcolax-captions").fadeOut(600);
-        $(".hacks-captions").fadeOut(600);
-        $(".idean-captions").fadeOut(600);        
-        $(".about-captions").fadeOut(600);
-        $(".contact-captions").fadeOut(600);
+        $(".dogtown-captions").fadeOut(0);
+        $(".dma-captions").fadeOut(0);
+        $(".vivgo-captions").fadeOut(0);
+        $(".elffe-captions").fadeOut(0);
+        $(".nordic-captions").fadeOut(0);
+        $(".adteam-captions").fadeOut(0);
+        $(".hacks-captions").fadeOut(0);
+        $(".idean-captions").fadeOut(0);        
+        $(".about-captions").fadeOut(0);
     }
     
     $(".gallery").click(function(e) {
         e.preventDefault();
-        $(".captions").fadeIn(600);
-        $("h1").addClass("active");
-        if (document.documentElement.clientWidth < 1280) {
-            $("html, body").animate({ scrollTop: 187 }, "slow");
+        $(".captions").fadeIn(0);
+        $("h2").addClass("active");
+        if (document.documentElement.clientWidth < 900) {
+            $("html, body").animate({ scrollTop: 350 }, "slow");
             return false;}
-        if (document.documentElement.clientWidth >= 1280) {
+        if (document.documentElement.clientWidth >= 900) {
             $("html, body").animate({ scrollTop: 230 }, "slow");
             return false;}
         });    
@@ -125,67 +98,52 @@ $(function() {
                 $(".nordic-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".nordic-captions").fadeIn(600);
+                    $(".nordic-captions").fadeIn(0);
                     });
                 $(".dogtown-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".dogtown-captions").fadeIn(600);
+                    $(".dogtown-captions").fadeIn(0);
                     });
-                $(".cards-pic").click(function(e) {
+                $(".dma-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".cards-captions").fadeIn(600);
-                    });
-                $(".posters-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".posters-captions").fadeIn(600);
+                    $(".dma-captions").fadeIn(0);
                     });
                 $(".vivgo-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".vivgo-captions").fadeIn(600);
+                    $(".vivgo-captions").fadeIn(0);
                     });
                 $(".elffe-pic").click(function(e) {
                     hideAll();
                     e.preventDefault();
-                    $(".elffe-captions").fadeIn(600);
+                    $(".elffe-captions").fadeIn(0);
                     });
-                $(".book-pic").click(function(e) {
+                $(".adteam-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".book-captions").fadeIn(600);
-                    });
-                $(".bnw-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".bnw-captions").fadeIn(600);
-                    });
-                $(".dulcolax-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".dulcolax-captions").fadeIn(600);
+                    $(".adteam-captions").fadeIn(0);
                     });
                 $(".hacks-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".hacks-captions").fadeIn(600);
+                    $(".hacks-captions").fadeIn(0);
                     });
                 $(".idean-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".idean-captions").fadeIn(600);
+                    $(".idean-captions").fadeIn(0);
                     });
     
     
     $(".x").click(function(e) {
         e.preventDefault()
         hideAll();
-        $("h2").removeClass("active");
-        $("h3").removeClass("active");
-        $("h1").addClass("active");
-        $("html, body").animate({ scrollTop: 0 }, "slow");
+        //$("h1").removeClass("active");
+        $(".about-captions").fadeIn(0);
+        $("h2").addClass("active");
+        $("html, body").animate({ scrollTop: 400 }, "slow");
         return false;
         });
     
