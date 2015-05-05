@@ -1,0 +1,376 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /* responsive by marko */
+    /*
+    background: url("background-16.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    background-size: cover;
+    */
+    /* end marko */
+}
+
+p {
+    font-size: 14px;
+}
+
+.captions-text {
+    width: 290px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.captions a {
+    text-decoration: none;
+    color: black;
+}
+
+.captions a:hover {
+    color: blue;
+}
+
+.emph {
+    font-size: 14px;
+    color: blue;
+}
+
+.p-titles {
+    font-size: 26px;
+    font-weight: 100;
+    color: black;
+}
+
+h1 {
+    font-size: 26px;
+    padding-bottom: 227px;
+    color: white;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 13px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    /**/
+    background-repeat: no-repeat; 
+    background-image: url("background-16.png");
+    background-size: auto;
+    background-position: top, center;
+    height: 700px;
+    /**/
+    display:none;
+}
+
+.nav {
+    margin-left: -120px;
+    position: absolute;
+    text-align: center;
+    margin-top: 93px;
+}
+
+.nav .active {
+    color: #f5ff00;
+}
+
+h1:hover {
+    color: #f5ff00;
+}
+
+h2:hover {
+    color: #f5ff00;
+}
+
+h3:hover {
+    color: #f5ff00;
+}
+
+.gallery {
+    position: absolute;
+    align-content: left;
+    width: 100%;
+    height: 163px;
+    overflow-y: hidden;
+    margin-left: 0px;
+    margin-top: 187px;
+}
+
+.gallery a {
+    display: inline-block;
+}
+
+.gallery img {
+    opacity: 0.4;
+    margin-left: -4px;
+    cursor: pointer;
+    height: 163px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    -webkit-box-shadow: 0px 1px 5px 3px #8d8d8d;
+}
+
+.hum-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.trees-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.psych-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.map-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.cards-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.processing-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.sway-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.posters-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.app-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.vivgo-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.darling-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.book-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.bnw-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.about-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.contact-captions {
+    font-weight: 300;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;
+}
+
+.hum {
+    margin-top: -27px;}
+.trees {
+    margin-top: -27px;}
+.psych {
+    margin-top: -27px;}
+.map {
+    margin-top: -27px;}
+.cards {
+    margin-top: -27px;}
+.processing {
+    margin-top: -27px;}
+.sway {
+    margin-top: -27px;}
+.posters {
+    margin-top: -27px;}
+.app {
+    margin-top: -27px;}
+.vivgo {
+    margin-top: -27px;}
+.darling {
+    margin-top: -27px;}
+.book {
+    margin-top: -27px;}
+.bnw {
+    margin-top: -27px;}
+
+.captions img {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.x {
+    margin-top: -27px;
+    position: absolute;
+    margin-left: 85%;
+}
+
+.x img {
+    width: 60px;
+}
+
+@media (min-width: 1280px) {
+    /**/
+    .top {
+        background-repeat: no-repeat; 
+        background-size: 1680px 860px;
+        background-position: top, center;
+        display:none;
+        height: 860px;
+    }
+    .gallery {
+        height: 200px;
+        margin-top: 230px;
+    }
+    .gallery img {
+        height: 200px;
+    }
+    /**/
+    .gallery img:hover {
+        -webkit-box-shadow: 0px 1px 5px 5px #8d8d8d;
+    }
+    .nav {
+        margin-top: 130px;
+    }
+    h1 {
+        padding-bottom: 257px;
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 19px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    .captions-text {
+        width: 450px;
+    }
+    p {
+        font-size: 19px;
+    }
+    .emph {
+    font-size: 19px;
+    }
+    .p-titles {
+        font-size: 32px;
+    }
+    .captions img {
+        width: 650px;
+    }
+    .x img {
+        width: 75px;
+    }
+    .x {
+        margin-top: -34px;
+    }
+    .map {margin-top: -34px;}
+    
+}
+
+@media (max-width: 720px) {
+    .x {margin-left: 80%;}
+    .x img {width: 60px;}
+    .captions img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;}
+    .hum {margin-top: 0px;}
+    .trees {margin-top: 0px;}
+    .psych {margin-top: 0px;}
+    .map {margin-top: 0px;}
+    .cards {margin-top: 0px;}
+    .processing {margin-top: 0px;}
+    .sway {margin-top: 0px;}
+    .posters {margin-top: 0px;}
+    .app {margin-top: 0px;}
+    .vivgo {margin-top: 0px;}
+    .darling {margin-top: 0px;}
+    .trees {margin-top: 0px;}
+    .book {margin-top: 0px;}
+    .bnw {margin-top: 0px;}
+}
+
+@-ms-viewport{
+  width: device-width;
+}
