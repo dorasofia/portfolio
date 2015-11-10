@@ -54,7 +54,7 @@ $(function() {
         $(".top").fadeIn(1000);
        
         setTimeout(function() {
-        $(".nav").animate({"left":"180px"},400);
+        $(".nav").animate({"left":"70%"},400);
         },
         1000);
         });
@@ -105,7 +105,7 @@ $(function() {
         $(".vivgo-captions").fadeOut(600);
         $(".hum-captions").fadeOut(600);
         $(".darling-captions").fadeOut(600);
-        $(".trees-captions").fadeOut(600);
+        $(".elffe-captions").fadeOut(600);
         $(".book-captions").fadeOut(600);
         $(".bnw-captions").fadeOut(600);
         $(".about-captions").fadeOut(600);
@@ -173,10 +173,10 @@ $(function() {
                     hideAll();
                     $(".darling-captions").fadeIn(600);
                     });
-                $(".trees-pic").click(function(e) {
+                $(".elffe-pic").click(function(e) {
                     hideAll();
                     e.preventDefault();
-                    $(".trees-captions").fadeIn(600);
+                    $(".elffe-captions").fadeIn(600);
                     });
                 $(".book-pic").click(function(e) {
                     e.preventDefault();

@@ -1,44 +1,45 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    /* responsive by marko */
-    /*
-    background: url("background-16.png") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    background-size: cover;
-    */
-    /* end marko */
+    background: #262626;
 }
 
 p {
-    font-size: 14px;
-}
+    font-size: 13px;
+    line-height: 17px;
+} 
 
 .captions-text {
     width: 290px;
-    color: black;
+    color: white;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 100;
 }
 
 .captions a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .captions a:hover {
-    color: blue;
+    /* color: blue; */
+    color: #f5ff00;
 }
 
 .emph {
-    font-size: 14px;
-    color: blue;
+    /* color: blue; */
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .p-titles {
     font-size: 26px;
     font-weight: 100;
-    color: black;
+    color: white;
+    line-height: 30px;
 }
 
 h1 {
@@ -73,11 +74,14 @@ a {
     background-position: top, center;
     height: 700px;
     /**/
-    display:none;
+    /*display:none;*/
+    display: block;
+    max-width: 1680px;
+    margin: 0 auto;
 }
 
 .nav {
-    margin-left: -120px;
+    margin-left: -55%;
     position: absolute;
     text-align: center;
     margin-top: 93px;
@@ -101,12 +105,16 @@ h3:hover {
 
 .gallery {
     position: absolute;
-    align-content: left;
+    /* align-content: left; */
+    align-content: center;
     width: 100%;
     height: 163px;
-    overflow-y: hidden;
-    margin-left: 0px;
+    overflow: hidden;
+    /* margin-left: 0px; */
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 187px;
+    max-width: 1680px;
 }
 
 .gallery a {
@@ -127,15 +135,15 @@ h3:hover {
 
 .hum-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
-.trees-captions {
+.elffe-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -143,7 +151,7 @@ h3:hover {
     display:none;}
 .psych-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -151,7 +159,7 @@ h3:hover {
     display:none;}
 .map-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -159,7 +167,7 @@ h3:hover {
     display:none;}
 .cards-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -167,7 +175,7 @@ h3:hover {
     display:none;}
 .processing-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -175,7 +183,7 @@ h3:hover {
     display:none;}
 .sway-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -183,7 +191,7 @@ h3:hover {
     display:none;}
 .posters-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -191,7 +199,7 @@ h3:hover {
     display:none;}
 .app-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -199,7 +207,7 @@ h3:hover {
     display:none;}
 .vivgo-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -207,7 +215,7 @@ h3:hover {
     display:none;}
 .darling-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -215,7 +223,7 @@ h3:hover {
     display:none;}
 .book-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -223,7 +231,7 @@ h3:hover {
     display:none;}
 .bnw-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -231,7 +239,7 @@ h3:hover {
     display:none;}
 .about-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -239,7 +247,7 @@ h3:hover {
     display:none;}
 .contact-captions {
     font-weight: 300;
-    background-color: white;
+    background-color: #262626;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -249,7 +257,7 @@ h3:hover {
 
 .hum {
     margin-top: -27px;}
-.trees {
+.elffe {
     margin-top: -27px;}
 .psych {
     margin-top: -27px;}
@@ -280,6 +288,13 @@ h3:hover {
     margin-right: auto;
 }
 
+.captions iframe {
+    width: 500px;
+    height: 281px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .x {
     margin-top: -27px;
     position: absolute;
@@ -296,7 +311,7 @@ h3:hover {
         background-repeat: no-repeat; 
         background-size: 1680px 860px;
         background-position: top, center;
-        display:none;
+        /*display:none;*/
         height: 860px;
     }
     .gallery {
@@ -327,16 +342,23 @@ h3:hover {
         width: 450px;
     }
     p {
-        font-size: 19px;
+        font-size: 16px;
+        line-height: 23px;
     }
     .emph {
-    font-size: 19px;
+        font-size: 20px;
+        line-height: 28px;
     }
     .p-titles {
         font-size: 32px;
+        line-height: 40px;
     }
     .captions img {
         width: 650px;
+    }
+    .captions iframe {
+        width: 650px;
+        height: 365px;
     }
     .x img {
         width: 75px;
@@ -348,6 +370,17 @@ h3:hover {
     
 }
 
+@media (min-width: 1680px) {
+    .x {
+        margin-top: -34px;
+        position: absolute;
+        margin-left: 70%;
+    }
+    .nav {
+        margin-left: -45%;
+    }
+}
+
 @media (max-width: 720px) {
     .x {margin-left: 80%;}
     .x img {width: 60px;}
@@ -355,8 +388,13 @@ h3:hover {
         width: 100%;
         margin-left: auto;
         margin-right: auto;}
+    .captions iframe {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;}
     .hum {margin-top: 0px;}
-    .trees {margin-top: 0px;}
+    .elffe {margin-top: 0px;}
     .psych {margin-top: 0px;}
     .map {margin-top: 0px;}
     .cards {margin-top: 0px;}
@@ -366,7 +404,7 @@ h3:hover {
     .app {margin-top: 0px;}
     .vivgo {margin-top: 0px;}
     .darling {margin-top: 0px;}
-    .trees {margin-top: 0px;}
+    .elffe {margin-top: 0px;}
     .book {margin-top: 0px;}
     .bnw {margin-top: 0px;}
 }
