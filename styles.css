@@ -19,7 +19,8 @@ p {
 
 .captions a {
     text-decoration: none;
-    color: white;
+    color: #f5ff00;
+    font-size: 13px;
 }
 
 .captions a:hover {
@@ -141,6 +142,34 @@ h3:hover {
     text-align: center;
     margin-top: -50px;
     display:none;}
+
+
+.dulcolax-captions {
+    font-weight: 300;
+    background-color: #262626;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.hacks-captions {
+    font-weight: 300;
+    background-color: #262626;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+.idean-captions {
+    font-weight: 300;
+    background-color: #262626;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
+
+
 .elffe-captions {
     font-weight: 300;
     background-color: #262626;
@@ -282,6 +311,15 @@ h3:hover {
 .bnw {
     margin-top: -27px;}
 
+
+.dulcolax {
+    margin-top: -27px;}
+.hacks {
+    margin-top: -27px;}
+.idean {
+    margin-top: -27px;}
+
+
 .captions img {
     width: 500px;
     margin-left: auto;
@@ -407,6 +445,10 @@ h3:hover {
     .elffe {margin-top: 0px;}
     .book {margin-top: 0px;}
     .bnw {margin-top: 0px;}
+    .dulcolax {margin-top: 0px;}
+    .hacks {margin-top: 0px;}
+    .idean {margin-top: 0px;}
+    
 }
 
 @-ms-viewport{

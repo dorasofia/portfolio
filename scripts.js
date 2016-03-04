@@ -110,6 +110,12 @@ $(function() {
         $(".bnw-captions").fadeOut(600);
         $(".about-captions").fadeOut(600);
         $(".contact-captions").fadeOut(600);
+        
+        
+        $(".dulcolax-captions").fadeOut(600);
+        $(".hacks-captions").fadeOut(600);
+        $(".idean-captions").fadeOut(600);
+        
     }
     
     $(".gallery").click(function(e) {
@@ -188,6 +194,24 @@ $(function() {
                     hideAll();
                     $(".bnw-captions").fadeIn(600);
                     });
+    
+    
+                $(".dulcolax-pic").click(function(e) {
+                    e.preventDefault();
+                    hideAll();
+                    $(".dulcolax-captions").fadeIn(600);
+                    });
+                $(".hacks-pic").click(function(e) {
+                    e.preventDefault();
+                    hideAll();
+                    $(".hacks-captions").fadeIn(600);
+                    });
+                $(".idean-pic").click(function(e) {
+                    e.preventDefault();
+                    hideAll();
+                    $(".idean-captions").fadeIn(600);
+                    });
+    
     
     $(".x").click(function(e) {
         e.preventDefault()
