@@ -95,27 +95,19 @@ $(function() {
     
     function hideAll() {
         $('.active').removeClass('active');
-        $(".psych-captions").fadeOut(600);
-        $(".map-captions").fadeOut(600);
+        $(".dogtown-captions").fadeOut(600);
         $(".cards-captions").fadeOut(600);
-        $(".processing-captions").fadeOut(600);
-        $(".sway-captions").fadeOut(600);
         $(".posters-captions").fadeOut(600);
-        $(".app-captions").fadeOut(600);
         $(".vivgo-captions").fadeOut(600);
-        $(".hum-captions").fadeOut(600);
-        $(".darling-captions").fadeOut(600);
         $(".elffe-captions").fadeOut(600);
         $(".book-captions").fadeOut(600);
         $(".bnw-captions").fadeOut(600);
-        $(".about-captions").fadeOut(600);
-        $(".contact-captions").fadeOut(600);
-        
-        
+        $(".nordic-captions").fadeOut(600);
         $(".dulcolax-captions").fadeOut(600);
         $(".hacks-captions").fadeOut(600);
-        $(".idean-captions").fadeOut(600);
-        
+        $(".idean-captions").fadeOut(600);        
+        $(".about-captions").fadeOut(600);
+        $(".contact-captions").fadeOut(600);
     }
     
     $(".gallery").click(function(e) {
@@ -129,55 +121,31 @@ $(function() {
             $("html, body").animate({ scrollTop: 230 }, "slow");
             return false;}
         });    
-                $(".psych-pic").click(function(e) {
+    
+                $(".nordic-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".psych-captions").fadeIn(600);
+                    $(".nordic-captions").fadeIn(600);
                     });
-                $(".map-pic").click(function(e) {
+                $(".dogtown-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
-                    $(".map-captions").fadeIn(600);
+                    $(".dogtown-captions").fadeIn(600);
                     });
                 $(".cards-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
                     $(".cards-captions").fadeIn(600);
                     });
-                $(".processing-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".processing-captions").fadeIn(600);
-                    });
-                $(".sway-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".sway-captions").fadeIn(600);
-                    });
                 $(".posters-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
                     $(".posters-captions").fadeIn(600);
                     });
-                $(".app-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".app-captions").fadeIn(600);
-                    });
                 $(".vivgo-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();
                     $(".vivgo-captions").fadeIn(600);
-                    });
-                $(".hum-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".hum-captions").fadeIn(600);
-                    });
-                $(".darling-pic").click(function(e) {
-                    e.preventDefault();
-                    hideAll();
-                    $(".darling-captions").fadeIn(600);
                     });
                 $(".elffe-pic").click(function(e) {
                     hideAll();
@@ -194,8 +162,6 @@ $(function() {
                     hideAll();
                     $(".bnw-captions").fadeIn(600);
                     });
-    
-    
                 $(".dulcolax-pic").click(function(e) {
                     e.preventDefault();
                     hideAll();

@@ -142,8 +142,14 @@ h3:hover {
     text-align: center;
     margin-top: -50px;
     display:none;}
-
-
+.dogtown-captions {
+    font-weight: 300;
+    background-color: #262626;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
 .dulcolax-captions {
     font-weight: 300;
     background-color: #262626;
@@ -168,8 +174,14 @@ h3:hover {
     text-align: center;
     margin-top: -50px;
     display:none;}
-
-
+.nordic-captions {
+    font-weight: 300;
+    background-color: #262626;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -50px;
+    display:none;}
 .elffe-captions {
     font-weight: 300;
     background-color: #262626;
@@ -210,14 +222,6 @@ h3:hover {
     text-align: center;
     margin-top: -50px;
     display:none;}
-.sway-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
 .posters-captions {
     font-weight: 300;
     background-color: #262626;
@@ -226,23 +230,7 @@ h3:hover {
     text-align: center;
     margin-top: -50px;
     display:none;}
-.app-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
 .vivgo-captions {
-    font-weight: 300;
-    background-color: #262626;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.darling-captions {
     font-weight: 300;
     background-color: #262626;
     position: absolute;
@@ -286,6 +274,8 @@ h3:hover {
 
 .hum {
     margin-top: -27px;}
+.dogtown {
+    margin-top: -27px;}
 .elffe {
     margin-top: -27px;}
 .psych {
@@ -296,30 +286,22 @@ h3:hover {
     margin-top: -27px;}
 .processing {
     margin-top: -27px;}
-.sway {
+.nordic {
     margin-top: -27px;}
 .posters {
     margin-top: -27px;}
-.app {
-    margin-top: -27px;}
 .vivgo {
-    margin-top: -27px;}
-.darling {
     margin-top: -27px;}
 .book {
     margin-top: -27px;}
 .bnw {
     margin-top: -27px;}
-
-
 .dulcolax {
     margin-top: -27px;}
 .hacks {
     margin-top: -27px;}
 .idean {
     margin-top: -27px;}
-
-
 .captions img {
     width: 500px;
     margin-left: auto;
@@ -431,23 +413,18 @@ h3:hover {
         height: 200px;
         margin-left: auto;
         margin-right: auto;}
-    .hum {margin-top: 0px;}
+    .dogtown {margin-top: 0px;}
     .elffe {margin-top: 0px;}
-    .psych {margin-top: 0px;}
-    .map {margin-top: 0px;}
     .cards {margin-top: 0px;}
-    .processing {margin-top: 0px;}
-    .sway {margin-top: 0px;}
     .posters {margin-top: 0px;}
-    .app {margin-top: 0px;}
     .vivgo {margin-top: 0px;}
-    .darling {margin-top: 0px;}
     .elffe {margin-top: 0px;}
     .book {margin-top: 0px;}
     .bnw {margin-top: 0px;}
     .dulcolax {margin-top: 0px;}
     .hacks {margin-top: 0px;}
     .idean {margin-top: 0px;}
+    .nordic {margin-top: 0px;}
     
 }
 
