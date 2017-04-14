@@ -325,7 +325,7 @@ h3:hover {
     width: 60px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
     /**/
     .top {
         background-repeat: no-repeat; 
@@ -390,7 +390,7 @@ h3:hover {
     
 }
 
-@media (min-width: 1680px) {
+@media (min-width: 16800px) {
     .x {
         margin-top: -34px;
         position: absolute;
