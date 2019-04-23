@@ -91,7 +91,7 @@ $(function() {
             $("html, body").animate({ scrollTop: 350 }, "slow");
             return false;}
         if (document.documentElement.clientWidth >= 900) {
-            $("html, body").animate({ scrollTop: 230 }, "slow");
+            $("html, body").animate({ scrollTop: 750 }, "slow");
             return false;}
         });    
     

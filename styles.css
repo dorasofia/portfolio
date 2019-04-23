@@ -1,49 +1,54 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #202020;}
+    background: #F7F8FF;}
 
 /* COPY */
 
 .captions-text {
     width: 650px;
-    color: #a4b0be;
+    color: #333333;
+    /*color: #a4b0be;*/
     margin-left: auto;
     margin-right: auto;
-    font-weight: 300;
-    text-align: justify;}
+    font-weight: 400;
+    text-align: left;}
 
 p {
-    font-size: 15px;
-    line-height: 22px;}
+    font-size: 13px;
+    line-height: 21px;}
 
 .captions-company {
     width: 650px;
-    color: #a4b0be;
+    font-size: 13px;
+    color: #B7C1D8;
+    text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 700;
     text-align: left;}
 
 .captions a {
-    text-decoration: none;
-    color: #FFFFFF;
-    font-weight: 300;
-    text-decoration: underline;}
+    color: #1d3cf6;
+    font-weight: 700;
+    text-decoration: none;}
 
 .captions a:hover {
-    color: #1d3cf6;}
+    color: #333333;}
 
 .captions a:active {
-    color: #1d3cf6;}
+    color: #333333;}
 
+/*
 .captions a:hover img{
     opacity: 0.8;}
+*/
 
 .p-titles {
     font-family: Helvetica, Sans-Serif;
     font-weight: bold;
     font-size: 45px;
-    color: white;
+    color: black;
     line-height: 50px;
     width: 650px;
     margin:auto;
@@ -65,7 +70,7 @@ h1 {
     font-weight: bold;
     font-size: 110px;
     padding-bottom: 150px;
-    color: white;
+    color: #F7F8FF;
     margin-left: -8px;}
 
 /* LAYOUT */
@@ -142,69 +147,70 @@ h1 {
     margin-right: auto;}
 
 .dogtown-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .adteam-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .hacks-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .idean-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .nordic-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .elffe-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .dma-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .vivgo-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 .about-captions {
-    background-color: #202020;
+    background-color: #F7F8FF;
     position: absolute;
     width: 100%;
     text-align: center;
     margin-top: -50px;
     display:none;}
 
+/*
 .dogtown {margin-top: -84px;}
 .elffe {margin-top: -84px;}
 .dma {margin-top: -84px;}
@@ -213,6 +219,8 @@ h1 {
 .adteam {margin-top: -84px;}
 .hacks {margin-top: -84px;}
 .idean {margin-top: -84px;}
+*/
+.about {margin-top: 40px;}
 
 /* LOGOS */
 
@@ -222,7 +230,7 @@ h1 {
 .social img {
     height: 20px;
     width: auto;}
-
+/*
 .social-LinkedIn {
     content:url("logo-LinkedIn.png");}
 
@@ -252,6 +260,7 @@ h1 {
 
 .social-Wordpress:hover {
     content:url("logo-Wordpress-hover.png");}
+*/
 
 /* MOBILE VIEW */
 
@@ -311,6 +320,7 @@ h1 {
     .captions iframe {
         width: 85%;}
 
+    /*
     .dogtown {margin-top: -88px;}
     .elffe {margin-top: -88px;}
     .dma {margin-top: -88px;}
@@ -320,6 +330,7 @@ h1 {
     .hacks {margin-top: -88px;}
     .idean {margin-top: -88px;}
     .about {margin-top: -15px;}
+    */
 
 }
 
