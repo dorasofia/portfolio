@@ -41,7 +41,7 @@ $(window).load(function() {
 	}
     $("html, body").animate({ scrollTop: 0 });
     $(".about-captions").fadeIn(0);
-    $("h2").addClass("active");
+    // $("h2").addClass("active");
     buildThumbs();
 });
 
@@ -56,19 +56,6 @@ $(window).resize(function() {
 
 
 $(function() {
-            
-    $("h2").click(function(e) {
-        e.preventDefault();
-        hideAll();
-        $(this).addClass('active');
-        $(".about-captions").fadeIn(0);
-        if (document.documentElement.clientWidth < 900) {
-            $("html, body").animate({ scrollTop: 350 }, "slow");
-            return false;}
-        if (document.documentElement.clientWidth >= 900) {
-            $("html, body").animate({ scrollTop: 400 }, "slow");
-            return false;}
-        });
     
     function hideAll() {
         $('.active').removeClass('active');
@@ -86,7 +73,7 @@ $(function() {
     $(".gallery").click(function(e) {
         e.preventDefault();
         $(".captions").fadeIn(0);
-        $("h2").addClass("active");
+        // $("h2").addClass("active");
         if (document.documentElement.clientWidth < 900) {
             $("html, body").animate({ scrollTop: 350 }, "slow");
             return false;}
@@ -143,7 +130,7 @@ $(function() {
         //$("h1").removeClass("active");
         $(".about-captions").fadeIn(0);
         $("h2").addClass("active");
-        $("html, body").animate({ scrollTop: 400 }, "slow");
+        $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
         });
     

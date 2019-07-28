@@ -1,30 +1,23 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    background: #F7F8FF;}
+    background: #f0f2fb;}
 
 /* COPY */
 
 .captions-text {
-    width: 650px;
     color: #333333;
-    /*color: #a4b0be;*/
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 400;
-    text-align: left;}
+    text-align: justify;}
 
 p {
     font-size: 13px;
     line-height: 21px;}
 
 .captions-company {
-    width: 650px;
     font-size: 13px;
     color: #B7C1D8;
     text-transform: uppercase;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 700;
     text-align: left;}
 
@@ -39,69 +32,63 @@ p {
 .captions a:active {
     color: #333333;}
 
-/*
-.captions a:hover img{
-    opacity: 0.8;}
-*/
-
 .p-titles {
     font-family: Helvetica, Sans-Serif;
     font-weight: bold;
     font-size: 45px;
     color: black;
-    line-height: 50px;
-    width: 650px;
-    margin:auto;
-    text-align: left;}
-
-.p-title {
-    font-family: Helvetica, Sans-Serif;
-    font-weight: bold;
-    font-size: 26px;
-    color: white;
-    line-height: 35px;
-    width: 650px;
-    margin:auto;
-    margin-top: 20px;
-    text-align: left;}
+    line-height: 52px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;}
 
 h1 {
     font-family: Helvetica, Sans-Serif;
     font-weight: bold;
-    font-size: 110px;
-    padding-bottom: 150px;
-    color: #F7F8FF;
-    margin-left: -8px;}
+    font-size: 100px;
+    color: #f0f2fb;
+    margin: 0px;}
 
 /* LAYOUT */
     
 .top {
-    background-repeat: no-repeat; 
-    background-image: url("background.jpg");
-    background-size: 1680px 775px;
+    background-size: 1280px 700px;
     background-position: top, center;
-    height: 775px;
+    height: 700px;
     display: block;
-    max-width: 1680px;
+    max-width: 1280px;
     margin: 0 auto;}
 
-.nav {
+.name {
     position: absolute;
-    text-align: left;
-    margin-top: 54px;
-    margin-left: 0px;}
+    margin-left: 30px;
+    margin-top: 257px;}
 
 .gallery {
     position: absolute;
     align-content: center;
     width: 100%;
-    height: 201px;
+    height: 350px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 229px;
-    max-width: 1680px;
+    max-width: 1280px;
     background-color: #1d3cf6;}
+
+.gallery1 {
+    margin-top: 0px;}
+
+.gallery2 {
+    margin-top: 350px;}
+
+.gallery1mobile {
+    display: none;}
+
+.gallery2mobile {
+    display: none;}
+
+.gallery3mobile {
+    display: none;}
 
 .gallery a {
     display: inline-block;}
@@ -110,7 +97,7 @@ h1 {
     opacity: 0.1;
     margin-left: -4px;
     cursor: pointer;
-    height: 201px;}
+    height: 350px;}
 
 .gallery img:hover {
     opacity: 1;}
@@ -119,19 +106,20 @@ h1 {
     opacity: 1;}
 
 .captions img {
-    width: 650px;
-    margin-left: auto;
-    margin-right: auto;}
+    width: 100%;}
+
+.captions iframe {
+    width: 100%;}
 
 .x {
-    margin-top: -34px;
-    margin-left: 85%;
+    margin-top: 30px;
+    margin-left: 90%;
     position: -webkit-sticky;
     position: sticky;
-    top: 50px;} 
+    top: 40px;} 
 
 .x img {
-    width: 75px;
+    width: 50px;
     height: auto;}
 
 .x-image {
@@ -140,87 +128,56 @@ h1 {
 .x-image:hover {
     content:url("x-.svg");}
 
-.captions iframe {
-    width: 650px;
-    height: 365px;
-    margin-left: auto;
-    margin-right: auto;}
+.captions {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #f0f2fb;}
 
 .dogtown-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .adteam-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .hacks-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .idean-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .nordic-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .elffe-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .dma-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 .vivgo-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
-.about-captions {
-    background-color: #F7F8FF;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top: -50px;
-    display:none;}
+    display: none;}
 
-/*
-.dogtown {margin-top: -84px;}
-.elffe {margin-top: -84px;}
-.dma {margin-top: -84px;}
-.vivgo {margin-top: -84px;}
-.nordic {margin-top: -84px;}
-.adteam {margin-top: -84px;}
-.hacks {margin-top: -84px;}
-.idean {margin-top: -84px;}
-*/
-.about {margin-top: 40px;}
+.nordic {
+    margin-left: 30px;;
+    width: 45%;}
+.vivgo {
+    margin-left: 30px;;
+    width: 45%;}
+.dma {
+    margin-left: 30px;;
+    width: 45%;}
+.elffe {
+    margin-left: 30px;;
+    width: 45%;}
+.idean {
+    margin-left: 30px;;
+    width: 45%;}
+.hacks {
+    margin-left: 30px;;
+    width: 45%;}
+.adteam {
+    margin-left: 30px;;
+    width: 45%;}
+.dogtown {
+    margin-left: 30px;;
+    width: 45%;}
+.about {
+    margin-left: 30px;;
+    width: 45%;
+    margin-top: 60px;}
 
 /* LOGOS */
 
@@ -230,57 +187,38 @@ h1 {
 .social img {
     height: 20px;
     width: auto;}
-/*
-.social-LinkedIn {
-    content:url("logo-LinkedIn.png");}
 
-.social-LinkedIn:hover {
-    content:url("logo-LinkedIn-hover.png");}
-
-.social-Vimeo {
-    content:url("logo-Vimeo.png");}
-
-.social-Vimeo:hover {
-    content:url("logo-Vimeo-hover.png");}
-
-.social-Flickr {
-    content:url("logo-Flickr.png");}
-
-.social-Flickr:hover {
-    content:url("logo-Flickr-hover.png");}
-
-.social-Instagram {
-    content:url("logo-Instagram.png");}
-
-.social-Instagram:hover {
-    content:url("logo-Instagram-hover.png");}
-
-.social-Wordpress {
-    content:url("logo-Wordpress.png");}
-
-.social-Wordpress:hover {
-    content:url("logo-Wordpress-hover.png");}
-*/
+.social {
+    padding-top: 10px;
+    padding-bottom: 20px;}
 
 /* MOBILE VIEW */
 
-@media (max-width: 900px) {
-    .top {
-        background-size: auto;
-        width: auto;
-        height: 700px;}
+@media (max-width: 500px) {
 
     h1 {
-        font-size: 75px;
+        font-size: 60px;
+        color: #f0f2fb;}
+    
+    .top {
+        height: 600px;
+        max-width: 500px;}
+    
+    .name {
+        position: absolute;
         margin-left: -5px;
-        padding-bottom: 140px;}
-
-    .nav {
-        margin-top: 66px;} 
-
+        margin-top: 345px;}
+    
     .x img {
         width: 30px;
         height: 30px;}
+    
+    .x {
+        margin-top: 30px;
+        margin-left: 85%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 40px;} 
 
     .captions img {
         width: 100%;}
@@ -290,19 +228,34 @@ h1 {
         width: auto;}
 
     .gallery img {
-        height: 165px;
-        opacity: 1;}
-
-    .gallery img:active {
-        opacity: 0.1;}
-
+        opacity: 0.1;
+        height: 200px;}
+    
     .gallery {
-        height: 165px;
-        margin-top: 185px;}
+        height: 200px;
+        max-width: 500px;}
+    
+    .gallery1 {
+        display: none;}
+    
+    .gallery2 {
+        display: none;}
+    
+    .gallery1mobile {
+        display: block;
+        margin-top: 0px;}
+
+    .gallery2mobile {
+        display: block;
+        margin-top: 200px;}
+    
+    .gallery3mobile {
+        display: block;
+        margin-top: 400px;}
 
     .captions-text {
         width: 85%;
-        text-align: left;}
+        text-align: justify;}
 
     .captions-company {
         width: 85%;}
@@ -319,18 +272,35 @@ h1 {
 
     .captions iframe {
         width: 85%;}
-
-    /*
-    .dogtown {margin-top: -88px;}
-    .elffe {margin-top: -88px;}
-    .dma {margin-top: -88px;}
-    .vivgo {margin-top: -88px;}
-    .nordic {margin-top: -88px;}
-    .adteam {margin-top: -88px;}
-    .hacks {margin-top: -88px;}
-    .idean {margin-top: -88px;}
-    .about {margin-top: -15px;}
-    */
+    
+    .nordic {
+        margin-left: 20px;;
+        width: 90%;}
+    .vivgo {
+        margin-left: 20px;;
+        width: 90%;}
+    .dma {
+        margin-left: 20px;;
+        width: 90%;}
+    .elffe {
+        margin-left: 20px;;
+        width: 90%;}
+    .idean {
+        margin-left: 20px;;
+        width: 90%;}
+    .hacks {
+        margin-left: 20px;;
+        width: 90%;}
+    .adteam {
+        margin-left: 20px;;
+        width: 90%;}
+    .dogtown {
+        margin-left: 20px;;
+        width: 90%;}
+    .about {
+        margin-left: 20px;;
+        width: 90%;
+        margin-top: 40px;}
 
 }
 
