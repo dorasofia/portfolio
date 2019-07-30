@@ -74,10 +74,10 @@ $(function() {
         e.preventDefault();
         $(".captions").fadeIn(0);
         // $("h2").addClass("active");
-        if (document.documentElement.clientWidth < 900) {
+        if (document.documentElement.clientWidth < 500) {
             $("html, body").animate({ scrollTop: 350 }, "slow");
             return false;}
-        if (document.documentElement.clientWidth >= 900) {
+        if (document.documentElement.clientWidth >= 500) {
             $("html, body").animate({ scrollTop: 750 }, "slow");
             return false;}
         });    
