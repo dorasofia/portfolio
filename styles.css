@@ -8,7 +8,7 @@ body {
 .captions-text {
     color: #0e0e0e;
     font-weight: 400;
-    text-align: justify;
+    text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
     -webkit-column-break-inside: avoid;
@@ -56,7 +56,7 @@ p a:active {
     line-height: 38px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 22px;}
+    margin-bottom: 30px;}
 
 .gallery-headline {
     font-family: Helvetica, Sans-Serif;
@@ -67,7 +67,9 @@ p a:active {
     line-height: 38px;
     text-align: center;
     margin-top: 0px;
-    margin-bottom: 0px;}
+    margin-bottom: 0px;
+    padding-right: 40px;
+    padding-left: 40px;}
 
 /* IMAGES */
 
@@ -242,30 +244,71 @@ p a:active {
 
 @media (max-width: 960px) {
     
+    .about .captions-headline {
+        font-size: 40px;
+        line-height: 48px;
+        margin-top: 0px;
+        margin-bottom: 40px;}
+    
     .gallery-item img {
-        opacity: 10%;}
+        opacity: 14%;}
     
     .gallery-text {
         z-index: 2;}
     
     .gallery-item {
         width: calc(100%);
-        height: calc(100vw - 40px);
-        margin: 0px 0px 20px 0px;}
+        height: calc(100vw - 0px);
+        margin: 0px 0px 14px 0px;}
+    
+    .social-container {
+        flex-direction: column;
+        align-items: center;}
+
+    .social-item {
+        height: 24px;
+        margin-right: 0px;
+        margin-bottom: 14px;}
+    
+    .about {
+        padding-top: 50px;
+        margin: 0 0 40px 0;}
+    
+    .top {
+        width: 100%;
+        margin: 0px 0px 0px 0px;}
     
     .captions {
         width: 100%;}
     
     .x {
-        padding: 0px 20px 5px 20px;}
+        padding: 20px 20px 10px 20px;
+        top: 0px;
+        background: #ffffff;}
     
     .captions-copy {
-        margin: 0px 50px 30px 50px;}
+        margin: 0px 30px 30px 30px;}
+    
+    .captions-text {
+        text-align: center;}
 
     .captions-images {
-        padding: 10px 0px 25px 0px;
+        padding: 10px 20px 25px 20px;
         margin-bottom: 0px;
         background-color: #ffffff;}
+    
+    .captions img {
+        padding-bottom: 5px;}
+
+    .captions iframe {
+        padding-bottom: 5px;}
+    
+    .inside {
+        padding: 0px 0px 0px 0px;}
+
+    .x-image {
+        content:url("x.svg");
+        opacity: 1;}
 
 }
 
