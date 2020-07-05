@@ -13,28 +13,31 @@ body {
     margin-bottom: 0px;
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-    break-inside: avoid;}
+    break-inside: avoid;
+    letter-spacing: 0.2px;}
 
 p {
     font-size: 14px;
-    line-height: 24px;}
+    line-height: 22px;}
 
 .captions-label {
     font-size: 14px;
     color: #0e0e0e;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 14px;}
+    margin-bottom: 14px;
+    letter-spacing: 0.5px;}
 
 .gallery-label {
     font-size: 14px;
     color: #ffffff;
     letter-spacing: 0.1px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 15px;}
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;}
 
 p a {
     color: #1d3cf6;
@@ -49,7 +52,7 @@ p a:active {
     opacity: 0.9;}
 
 .captions-headline {
-    font-family: Helvetica, Sans-Serif;
+    font-family: Helvetica Neue, Sans-Serif;
     font-weight: bold;
     font-size: 32px;
     color: #000000;
@@ -59,7 +62,7 @@ p a:active {
     margin-bottom: 30px;}
 
 .gallery-headline {
-    font-family: Helvetica, Sans-Serif;
+    font-family: Helvetica Neue, Sans-Serif;
     font-weight: 600;
     font-size: 32px;
     letter-spacing: 0.2px;
@@ -136,8 +139,10 @@ p a:active {
 .social-item {
     height: 20px;
     width: auto;
-    margin-right: 14px;
     position: relative;}
+
+.mail{
+    margin-right: 14px;}
 
 .social-item a {
     height: 100%;
@@ -209,11 +214,11 @@ p a:active {
     padding: 50px 0px 0px 0px;}
 
 .captions-copy {
-    margin: 0px 140px 50px 140px;}
+    margin: 0px 140px 40px 140px;}
 
 .captions-images {
     padding: 50px 140px 35px 140px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background-color: #f1f2fa;}
 
 .dogtown-captions {
@@ -260,15 +265,9 @@ p a:active {
         width: calc(100%);
         height: calc(100vw - 0px);
         margin: 0px 0px 14px 0px;}
-    
-    .social-container {
-        flex-direction: column;
-        align-items: center;}
 
     .social-item {
-        height: 24px;
-        margin-right: 0px;
-        margin-bottom: 14px;}
+        height: 24px;}
     
     .about {
         padding-top: 50px;
