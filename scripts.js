@@ -6,9 +6,7 @@ $(function () {
     function hideAll() {
         $('.gallery-item-active').removeClass('gallery-item-active');
         $(".dogtown-captions").fadeOut(0);
-        $(".dma-captions").fadeOut(0);
-        $(".vivgo-captions").fadeOut(0);
-        $(".elffe-captions").fadeOut(0);
+        $(".perpetual-captions").fadeOut(0);
         $(".nordic-captions").fadeOut(0);
         $(".adteam-captions").fadeOut(0);
         $(".hacks-captions").fadeOut(0);
@@ -30,26 +28,12 @@ $(function () {
         $(".modal").fadeIn(200);
         $(".dogtown-pic").addClass("gallery-item-active");
     });
-    $(".dma-pic").click(function (e) {
+    $(".perpetual-pic").click(function (e) {
         e.preventDefault();
         hideAll();
-        $(".dma-captions").fadeIn(200);
+        $(".perpetual-captions").fadeIn(200);
         $(".modal").fadeIn(200);
-        $(".dma-pic").addClass("gallery-item-active");
-    });
-    $(".vivgo-pic").click(function (e) {
-        e.preventDefault();
-        hideAll();
-        $(".vivgo-captions").fadeIn(200);
-        $(".modal").fadeIn(200);
-        $(".vivgo-pic").addClass("gallery-item-active");
-    });
-    $(".elffe-pic").click(function (e) {
-        hideAll();
-        e.preventDefault();
-        $(".elffe-captions").fadeIn(200);
-        $(".modal").fadeIn(200);
-        $(".elffe-pic").addClass("gallery-item-active");
+        $(".perpetual-pic").addClass("gallery-item-active");
     });
     $(".adteam-pic").click(function (e) {
         e.preventDefault();
